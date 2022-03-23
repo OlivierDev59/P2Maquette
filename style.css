@@ -1,0 +1,38 @@
+* {
+    font-family: Raleway;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+}
+
+.nav-liste {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    margin-right: 20px;
+}
+
+.liste {
+    text-decoration: none;
+}
+
+.nav-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 98px;
+    border-top: 2px solid blue transparent;
+}
+
