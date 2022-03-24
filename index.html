@@ -1,73 +1,297 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
-    <script
-      src="https://kit.fontawesome.com/e499ff3e36.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Booki</title>
-  </head>
-
-  <body>
-    <!-- Barre de navigation -->
-    <header>
-      <nav>
-        <div>
-            <img class="logo" src="./asset/logo/Booki@3x.png" alt="logo" />
-        </div>
-        <div class="nav-liste">
-            <div class="nav-element"><a class="liste" href="#">Hébergement</a></div>
-            <div class="nav-element"><a class="liste" href="#">Activités</a></div>
-        </div>
-      </nav>
-    </header>
-    <!-- Main -->
-    <main>
-      <div>
-        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-      </div>
-      <!-- Barre de recherche -->
-      <div>
-        <i class="fa-solid fa-location-dot"></i>
-        <input type="search" value="Marseille, France" />
-        <button>Rechercher</button>
-      </div>
-      <!-- Filtres -->
-        <div>
-            <h3>Filtres</h3>
-                <div>
-                    <i class="fa-solid fa-money-bill-wave">Économie</i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-child-reaching">Familiale</i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-heart">Romantique</i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-dog">Animeaux autorisés</i>
-                </div>
-      </div>
-      <!-- Info-->
-      <div>
-        <i class="fa-solid fa-info"></i>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-      </div>
-      <!--Section1 -->
-      <section>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://kit.fontawesome.com/e499ff3e36.js" crossorigin="anonymous"></script>
+      <title>Document</title>
+    </head>
+    <!--**********HEADER**********-->
+      <header>
+        <nav>
           <div>
-              <h2>Hébergement à Marseille</h2>
+            <img src="./asset/logo/Booki@3x.png" alt="logo">
           </div>
-
-      </section>
+          <div>
+            <ul>
+              <li><a href="#">Hébergements</a></li>
+              <li><a href="#">Activités</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <!--**********BODY**********-->
+    <main>
+      <body>
+        <!--Titre principale-->
+        <div>
+          <h1>
+            Touvez votre hébergement pour des vacances de rêve
+          </h1>
+          <p>
+            En plein centre ville ou en pleine nature
+          </p>
+        </div>
+        <!--Barre de recherche-->
+        <div>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div>
+            <input type="search" placeholder="Marseille, France">
+          </div>
+          <div>
+             <button>Rechercher</button>
+          </div>
+        </div>
+        <!--**********Filtres**********-->
+        <div>
+          <div>
+            <h3>
+              Filtres
+            </h3>
+          </div>
+          <div>
+            <ul>
+              <li><i class="fa-solid fa-money-bill-wave"></i>Économie</li>
+              <li><i class="fa-solid fa-child-reaching"></i>Familial</li>
+              <li><i class="fa-solid fa-heart"></i>Romantique</li>
+              <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
+            </ul>
+          </div>
+        </div>
+        <!--**********Section 1**********-->
+        <section> <!--Zone 1 + Zone 2-->
+          <div> <!--Zone1-->
+            <div>
+              <h2>
+                Hébergements à Marseille
+              </h2>
+            </div>
+            <!--Conteneur 1-->
+            <div>
+              <div> <!--Auberge le Cannebière-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/cannebière.jpg" alt="Auberge la cannebière">
+                </div>
+                <div>
+                  <h4>Auberge la Cannebière</h4>
+                  <p>Nuit à partir de 25€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div> <!--Hôtel du port-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/port.jpg" alt="Hôtel du port">
+                </div>
+                <div>
+                  <h4>Hôtel du port</h4>
+                  <p>Nuit à partir de 52€</p>
+                </div>
+                <div> 
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div> <!--Hôtel les mouettes-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/mouettes.jpg" alt="Hôtel Les mouettes">
+                </div>
+                <div>
+                  <h4>Hôtel Les mouettes</h4>
+                  <p>Nuit à partir de 76€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <!--Conteneur 2-->
+            <div>
+              <div> <!--Hôtel de la mer-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/mer.jpg" alt="Hôtel de la mer">
+                </div>
+                <div>
+                  <h4>Hôtel de la mer</h4>
+                  <p>Nuit à partir de 46€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div> <!--Auberge Le Panier-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/panier.jpg" alt="Auberge Le Panier">
+                </div>
+                <div>
+                  <h4>Auberge Le Panier</h4>
+                  <p>Nuit à partir de 23€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/amina.jpg" alt="Hôtel chez Amina">
+                </div>
+                <div>
+                  <h4>Hôtel chez Amina</h4>
+                  <p>Nuit à partir de 96€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div> <!--Afficher plus-->
+                <a href="#">Afficher plus</a>
+              </div>
+            </div>
+          </div>
+          <div> <!--Zone 2-->
+            <div>
+              <h4>Les plus populaires</h4>
+              <i class="fa-solid fa-chart-line-up"></i>
+            </div>
+            <div> <!--conteneur 3-->
+              <div> <!--Hôtel Le soleil du matin-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/soleil.jpg" alt="">
+                  <i class="fa-solid fa-chart-line-up"></i>
+                </div>
+                <div>
+                  <h4>Hôtel Le soleil du<br/>matin</h4>
+                  <p>Nuit à partir de 128€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div> <!--Au coeur de l'eau-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/coeur.jpg" alt="Au couer de l'eau. Chambres d'hôtes">
+                </div>
+                <div>
+                  <h4>Au coeur de l'eau<br/>Chambres d'hôtes</h4>
+                  <p>Nuit à partir de 71€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div> <!--Hôtel Tout bleu et Blanc-->
+                <div>
+                  <img src="./asset/hébergement marseille/x-large/bleublanc.jpg" alt="Hôtel Tout bleu et Blanc">
+                </div>
+                <div>
+                  <h4>Hôtel Tout bleu et<br/>Blanc</h4>
+                  <p>Nuit à partir de 68€</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section> <!--Zone 3 seulement-->
+          <div>
+            <h2>Activités à Marseille</h2>
+          </div>
+          <div> <!--Conteneur 4-->
+            <div> <!--Vieux port-->
+              <div>
+                <img src="./asset/activité marseille/x-large/port.jpg" alt="Vieux Port">
+              </div>
+              <div>
+                 <h4>Vieux Port</h4>
+              </div>
+            </div>
+            <div> <!--Fort et Iles-->
+              <div> <!--Fort de Pomègues-->
+                <div>
+                  <img src="./asset/activité marseille/x-large/fort.jpg" alt="Fort de Pomègues">
+                </div>
+                <div>
+                  <h4>Fort de Pomègues</h4>
+                </div>
+              </div>
+              <div> <!--Iles du Frioul-->
+                <div>
+                  <img src="./asset/activité marseille/x-large/iles.jpg" alt="Iles du frioul">
+                </div>
+                <div>
+                  <h4>Îles du Frioul</h4>
+                </div>
+              </div>
+            </div>
+            <div> <!--Parc national des calanques-->
+              <div>
+                <img src="./asset/activité marseille/x-large/calanques.jpg" alt="Parc National des Calanques">
+              </div>
+              <div>
+                <h4>Parc National des calanques</h4>
+              </div>
+            </div>
+            <div> <!--Notre dame et longchamp-->
+              <div>
+                <div>
+                  <img src="./asset/activité marseille/x-large/notre dame.jpg" alt="Notre-Dame-de-la-Garde">
+                </div>
+                <div>
+                  <h4>Notre-Dame-de-la-Garde</h4>
+                </div>
+              </div>
+              <div> <!--Parc longchamp-->
+                <div>
+                  <img src="./asset/activité marseille/x-large/longchamp.jpg" alt="Parc Longchamp">
+                </div>
+                <div>
+                  <h4>Parc Longchamp</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer>
+              <div><!--A propos-->
+                <div>
+                  <h3>A propos</h3>
+                </div>
+                <div>
+                  <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div><!--Nos hébergements-->
+                <div>
+                  <h3>Nos Hébergements</h3>
+                </div>
+                <div>
+                  <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div><!--Assistance-->
+                <div>
+                  <h3>Assistance</h3>
+                </div>
+                <div>
+                  <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                  </ul>
+                </div>
+              </div>
+        </footer>
+      </body>
     </main>
-  </body>
 </html>
