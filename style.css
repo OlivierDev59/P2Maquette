@@ -30,3 +30,200 @@ nav a {
     padding: 38px 0 0 0;
     border-top: 3px solid blue;
 }
+
+/***********Titre principale***********/
+
+.principale {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 20px 0 0 20px;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+.centre {
+    font-size: 12px;
+}
+
+/***********Barre de recherche***********/
+
+.barre {
+    display: flex;
+    margin: 20px 0 20px 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+    background-color: #F2F2F2;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rechercher {
+    color: white;
+    background-color: #0065FC;
+    width: 120px;
+    border-radius: 0 10px 10px 0;
+}
+
+/***********Filtres***********/
+
+.filtres{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.filtres h3 {
+    margin-right: 20px;
+    font-size: 15pxs;
+}
+
+.filtres-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtres-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+    margin: 0 10px 0 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.filtres-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+/***********Info***********/
+
+.info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 20px 0 20px 20px;
+}
+
+.icon-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+/***********Zone 1 + 2***********/
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+/***********Zone 1***********/
+
+.zone1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heb-h2, .afficher-plus {
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+}
+
+.conteneur1, .conteneur2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic-heb-marseille {
+    width: 40%;
+    height: 10%;
+}
+
+/***********Zone 2***********/
+
+.zone2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.populaires {
+    width: 40%;
+    height: 10%;
+}
+
+/***********Activités Marseille***********/
+
+.act-marseille {
+    display: flex;
+    justify-content: start;
+    margin: 20px 0 20px 20px;
+}
+
+/***********Section 2***********/
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 20px 20px;
+}
+
+.conteneur4, .conteneur5, .conteneur6, .conteneur7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-marseille {
+    width: 40%;
+    height: 10%;
+}
+
+/***********Conteneur 4***********/
+/***********Conteneur 5***********/
+/***********Conteneur 6***********/
+/***********Conteneur 7***********/
+/***********Footer***********/
+
+footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

@@ -28,44 +28,62 @@
     </nav>
   </header>
   <!--**********BODY**********-->
-  <main>
-    <body>
+  <body>
+    <main>
       <!--Titre principale-->
-      <div>
+      <div class="principale">
         <h1>Touvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
+        <p class="centre">En plein centre ville ou en pleine nature</p>
       </div>
       <!--Barre de recherche-->
-      <div>
-          <i class="fa-solid fa-location-dot"></i>
-          <input type="search" placeholder="Marseille, France" />
-          <button>Rechercher</button>
+      <div class="barre">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot icon-location"></i>
+        </div>
+        <input type="search" placeholder="Marseille, France" />
+        <button class="rechercher">Rechercher</button>
       </div>
       <!--**********Filtres**********-->
-      <div>
-          <h3>Filtres</h3>
-          <ul>
-            <li><i class="fa-solid fa-money-bill-wave"></i>Économie</li>
-            <li><i class="fa-solid fa-child-reaching"></i>Familial</li>
-            <li><i class="fa-solid fa-heart"></i>Romantique</li>
-            <li><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
-          </ul>
+      <div class="filtres">
+        <h3>Filtres</h3>
+        <ul class="filtres-ul">
+          <li class="filtres-li">
+            <i class="fa-solid fa-money-bill-wave filtres-icon"></i>Économie
+          </li>
+          <li class="filtres-li">
+            <i class="fa-solid fa-child-reaching filtres-icon"></i>Familial
+          </li>
+          <li class="filtres-li">
+            <i class="fa-solid fa-heart filtres-icon"></i>Romantique
+          </li>
+          <li class="filtres-li">
+            <i class="fa-solid fa-dog filtres-icon"></i>Animaux autorisés
+          </li>
+        </ul>
+      </div>
+      <!--**********Info**********-->
+      <div class="info">
+        <i class="fa-solid fa-info icon-info"></i>
+        <p class="info-text">
+          Plus de 500 logements sont disponibles dans cette ville
+        </p>
       </div>
       <!--**********Section 1**********-->
-      <section>
+      <section class="section1">
         <!--Zone 1 + Zone 2-->
-        <div>
+        <div class="zone1">
           <!--Zone1-->
-          <div>
+          <div class="heb-h2">
             <h2>Hébergements à Marseille</h2>
           </div>
           <!--Conteneur 1-->
-          <div>
+          <div class="conteneur1">
             <div>
               <!--Auberge le Cannebière-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/cannebière.jpg"
+                  class="pic-heb-marseille"
+                  src="./asset/hébergement-marseille/cannebiere.jpg"
                   alt="Auberge la cannebière"
                 />
               </div>
@@ -83,7 +101,8 @@
               <!--Hôtel du port-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/port.jpg"
+                  class="pic-heb-marseille"
+                  src="./asset/hébergement-marseille/port.jpg"
                   alt="Hôtel du port"
                 />
               </div>
@@ -101,7 +120,8 @@
               <!--Hôtel les mouettes-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/mouettes.jpg"
+                  class="pic-heb-marseille"
+                  src="./asset/hébergement-marseille/mouettes.jpg"
                   alt="Hôtel Les mouettes"
                 />
               </div>
@@ -117,12 +137,13 @@
             </div>
           </div>
           <!--Conteneur 2-->
-          <div>
+          <div class="conteneur2">
             <div>
               <!--Hôtel de la mer-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/mer.jpg"
+                  class="pic-heb-marseille"
+                  src="./asset/hébergement-marseille/mer.jpg"
                   alt="Hôtel de la mer"
                 />
               </div>
@@ -140,7 +161,8 @@
               <!--Auberge Le Panier-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/panier.jpg"
+                  class="pic-heb-marseille"
+                  src="./asset/hébergement-marseille/panier.jpg"
                   alt="Auberge Le Panier"
                 />
               </div>
@@ -157,7 +179,8 @@
             <div>
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/amina.jpg"
+                  class="pic-heb-marseille"
+                  src="./asset/hébergement-marseille/amina.jpg"
                   alt="Hôtel chez Amina"
                 />
               </div>
@@ -171,13 +194,13 @@
                 ><i class="fa-solid fa-star"></i>
               </div>
             </div>
-            <div>
-              <!--Afficher plus-->
-              <a href="#">Afficher plus</a>
-            </div>
+          </div>
+          <div class="afficher-plus">
+            <!--Afficher plus-->
+            <a href="#">Afficher plus</a>
           </div>
         </div>
-        <div>
+        <div class="zone2">
           <!--Zone 2-->
           <div>
             <h4>Les plus populaires</h4>
@@ -189,7 +212,8 @@
               <!--Hôtel Le soleil du matin-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/soleil.jpg"
+                  class="populaires"
+                  src="./asset/hébergement-marseille/soleil.jpg"
                   alt=""
                 />
                 <i class="fa-solid fa-chart-line-up"></i>
@@ -208,7 +232,8 @@
               <!--Au coeur de l'eau-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/coeur.jpg"
+                  class="populaires"
+                  src="./asset/hébergement-marseille/coeur.jpg"
                   alt="Au couer de l'eau. Chambres d'hôtes"
                 />
               </div>
@@ -226,7 +251,8 @@
               <!--Hôtel Tout bleu et Blanc-->
               <div>
                 <img
-                  src="./asset/hébergement marseille/x-large/bleublanc.jpg"
+                  class="populaires"
+                  src="./asset/hébergement-marseille/bleublanc.jpg"
                   alt="Hôtel Tout bleu et Blanc"
                 />
               </div>
@@ -243,88 +269,92 @@
           </div>
         </div>
       </section>
-      <section>
-        <!--Zone 3 seulement-->
-        <div>
-          <h2>Activités à Marseille</h2>
+      <div class="act-marseille">
+        <h2>Activités à Marseille</h2>
+      </div>
+      <section class="section2">
+        <!--Conteneur 4-->
+        <div class="conteneur4">
+          <!--Vieux port-->
+          <div>
+            <img
+              class="img-marseille"
+              src="./asset/activité-marseille/port.jpg"
+              alt="Vieux Port"
+            />
+          </div>
+          <div>
+            <h4>Vieux Port</h4>
+          </div>
         </div>
-        <div>
-          <!--Conteneur 4-->
+        <!--Conteur 5-->
+        <div class="conteneur5">
           <div>
-            <!--Vieux port-->
+            <!--Fort de Pomègues-->
             <div>
               <img
-                src="./asset/activité marseille/x-large/port.jpg"
-                alt="Vieux Port"
+                class="img-marseille"
+                src="./asset/activité-marseille/fort.jpg"
+                alt="Fort de Pomègues"
               />
             </div>
             <div>
-              <h4>Vieux Port</h4>
+              <h4>Fort de Pomègues</h4>
             </div>
           </div>
           <div>
-            <!--Fort et Iles-->
-            <div>
-              <!--Fort de Pomègues-->
-              <div>
-                <img
-                  src="./asset/activité marseille/x-large/fort.jpg"
-                  alt="Fort de Pomègues"
-                />
-              </div>
-              <div>
-                <h4>Fort de Pomègues</h4>
-              </div>
-            </div>
-            <div>
-              <!--Iles du Frioul-->
-              <div>
-                <img
-                  src="./asset/activité marseille/x-large/iles.jpg"
-                  alt="Iles du frioul"
-                />
-              </div>
-              <div>
-                <h4>Îles du Frioul</h4>
-              </div>
-            </div>
-          </div>
-          <div>
-            <!--Parc national des calanques-->
+            <!--Iles du Frioul-->
             <div>
               <img
-                src="./asset/activité marseille/x-large/calanques.jpg"
-                alt="Parc National des Calanques"
+                class="img-marseille"
+                src="./asset/activité-marseille/iles.jpg"
+                alt="Iles du frioul"
               />
             </div>
             <div>
-              <h4>Parc National des calanques</h4>
+              <h4>Îles du Frioul</h4>
+            </div>
+          </div>
+        </div>
+        <div class="conteneur6">
+          <!--Conteneur 6-->
+          <div>
+            <img
+              class="img-marseille"
+              src="./asset/activité-marseille/calanques.jpg"
+              alt="Parc National des Calanques"
+            />
+          </div>
+          <div>
+            <h4>Parc National des calanques</h4>
+          </div>
+        </div>
+        <div class="conteneur7">
+          <!--Conteneur 7-->
+          <!--Notre dame et longchamp-->
+          <div>
+            <div>
+              <img
+                class="img-marseille"
+                src="./asset/activité-marseille/notre-dame.jpg"
+                alt="Notre-Dame-de-la-Garde"
+              />
+            </div>
+            <div>
+              <h4>Notre-Dame-de-la-Garde</h4>
             </div>
           </div>
           <div>
-            <!--Notre dame et longchamp-->
+            <!--Parc longchamp-->
             <div>
-              <div>
-                <img
-                  src="./asset/activité marseille/x-large/notre dame.jpg"
-                  alt="Notre-Dame-de-la-Garde"
-                />
-              </div>
-              <div>
-                <h4>Notre-Dame-de-la-Garde</h4>
-              </div>
+              <img
+                class="img-marseille"
+                src="./asset/activité-marseille/longchamp.jpg"
+                alt="Parc Longchamp"
+              />
             </div>
             <div>
-              <!--Parc longchamp-->
-              <div>
-                <img
-                  src="./asset/activité marseille/x-large/longchamp.jpg"
-                  alt="Parc Longchamp"
-                />
-              </div>
-              <div>
-                <h4>Parc Longchamp</h4>
-              </div>
+              <h4>Parc Longchamp</h4>
             </div>
           </div>
         </div>
@@ -368,6 +398,6 @@
           </div>
         </div>
       </footer>
-    </body>
-  </main>
+    </main>
+  </body>
 </html>
