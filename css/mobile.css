@@ -1,0 +1,211 @@
+/**
+ * mobile.css
+ *
+ * Fichier contenant les propriétés css pour la version mobile
+ *
+ * @version 1.0
+ * @Author : Olivier chauvel
+ * @Date 2022-04
+ *
+ */
+
+/***********Barre de navigation***********/
+body {
+  width: 100%;
+}
+nav {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+}
+header nav img {
+  justify-content: center;
+  width: 150px;
+  padding: 20px 0;
+}
+nav .onglets {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto 20px;
+  width: 100%;
+  border-bottom: 3px solid #f2f2f2;
+}
+
+header .onglets .hebergements:hover {
+  border-top: none;
+  border-bottom: 4px solid #0065fc;
+  color: #0065fc;
+}
+
+header .onglets .activites:hover {
+  /*Effet survole bodure*/
+  border-top: none;
+  border-bottom: 4px solid #0065fc;
+  color: #0065fc;
+}
+nav .onglets a {
+  padding: 10px 30px;
+  margin: auto;
+  width: auto;
+}
+
+/***********Titre principal***********/
+main .titreh1 h1 {
+  margin: 0 20px;
+  font-size: 20px;
+}
+main .titreh1 p {
+  margin: 10px 20px;
+}
+/***********Barre de recherche***********/
+main button {
+  display: none;
+}
+main .search {
+  margin: 20px 10px;
+  font-size: 20px;
+  justify-content: center;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  border-radius: 15px;
+  width: auto;
+}
+main .search a {
+  display: none;
+}
+.fa-location-dot {
+  padding: 15px 20px;
+}
+.fa-magnifying-glass {
+  padding: 15px;
+}
+main .search .iconsearch {
+  width: 50px;
+  height: auto;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background-color: #0065fc;
+  border-radius: 10px;
+}
+main .icon-map {
+  width: 50px;
+  height: auto;
+}
+main .search input {
+  height: 50px;
+  width: 350px;
+  margin: auto;
+  border: none;
+}
+/***********Filtres***********/
+main .filtres {
+  display: block;
+}
+main .filtres h2 {
+  margin-left: 20px;
+}
+main .filtres .flexcentre {
+  justify-content: start;
+}
+main .filtres .flexcentre a {
+  margin-bottom: 10px;
+}
+/***********Info bulle**********/
+main .info {
+  margin: 10px 20px;
+}
+main .info .flexcentre {
+  height: 24px;
+  width: 24px;
+}
+main .info p {
+  font-size: 14px;
+}
+/***********Section corps***********/
+.section2 {
+  order: 1;
+}
+.section1 {
+  order: 2;
+}
+.section3 {
+  order: 3;
+}
+
+/***********Section 2***********/
+
+main .section2 {
+  display: block;
+  border-radius: 0;
+}
+
+/***********section 1***********/
+main .section1 {
+  display: block;
+  height: auto;
+  background-color: white;
+}
+main .section1 .flexaround {
+  flex-direction: column;
+}
+main .section1 .imgcolonne1,
+.section1 .imgcolonne2 {
+  width: 90%;
+}
+/***********Section 3***********/
+main .section3 .flexaround {
+  flex-direction: column;
+}
+main .section3 .colonne4,
+.colonne5double1,
+.colonne6,
+.colonne7double2 {
+  width: 90%;
+  margin-bottom: 20px;
+}
+main .section3 .colonne5double1 {
+  width: 90%;
+}
+main .section3 .fort,
+.iles {
+  margin-bottom: 20px;
+}
+main .section3 .colonne4 {
+  height: 175px;
+}
+main .section3 .colonne6 {
+  height: 175px;
+  margin-top: 12px;
+}
+main .section3 .ndg {
+  margin-bottom: 20px;
+}
+main .section3 .img10 {
+  height: 130px;
+}
+main .section3 .img11 {
+  height: 130px;
+}
+main .section3 .img12 {
+  height: 130px;
+}
+main .section3 .img13 {
+  height: 130px;
+}
+main .section3 .img14 {
+  height: 130px;
+}
+main .section3 .img15 {
+  height: 130px;
+}
+
+/***********Footer**********/
+footer {
+  display: block;
+  margin-top: 30px;
+}
+
+footer .apropos {
+  padding-top: 20px;
+}

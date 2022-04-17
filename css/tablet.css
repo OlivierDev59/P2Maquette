@@ -1,0 +1,54 @@
+ /**
+ * tablet.css
+ *
+ * Fichier contenant les propriétés css pour la version tablette
+ *
+ * @version 1.0
+ * @Author : Olivier chauvel
+ * @Date 2022-04
+ *
+ */
+
+  .section1 {
+    /*Odre de la section 1*/
+    order: 2;
+  }
+  .section2 {
+    /*Ordre de la section 2*/
+    order: 1;
+  }
+  .section3 {
+    /*Ordre de la section 3*/
+    order: 3;
+  }
+  main .filtres .flexcentre {
+    flex-wrap: wrap;
+  }
+
+  main .filtres .flexcentre {
+    /*Mise en page des filtres*/
+    justify-content: start;
+  }
+  main .filtres .flexcentre a {
+    /*Marge des liens par rapport à la barre de recherche*/
+    margin-top: 10px;
+  }
+  main .section1 .section1 .titreh3 {
+    /*Marge interne du titre de la section 1*/
+    padding-top: 20px;
+  }
+  main .section1 {
+    /*Mise en page*/
+    width: 100%;
+    margin-right: 0;
+  }
+  main .section2 {
+    margin-left: 0;
+    width: 100%;
+  }
+  footer .apropos,
+  .noshebergements,
+  .assistance {
+    /*Marge des 3 éléments*/
+    margin: 20px 50px 20px 20px;
+  }

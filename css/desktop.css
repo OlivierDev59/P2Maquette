@@ -1,0 +1,602 @@
+/**
+ * Desktop.css
+ *
+ * Fichier contenant les propriétés css pour la version desktop
+ *
+ * @version 1.0
+ * @Author : Olivier chauvel
+ * @Date 2022-04
+ *
+ */
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  margin: auto;
+  width: 95%;
+}
+
+.flexcentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexaround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/**************************************navbar**********************************************/
+header nav img {
+  /*Taille logo*/
+  width: 50%;
+  height: auto;
+}
+
+header .onglets a {
+  /*Suppression décoration de texte*/
+  text-decoration: none;
+  font-size: 15px;
+}
+
+header .onglets .activites {
+  /*Coulleur de l'élément*/
+  color: black;
+}
+
+.hebergements,
+.activites {
+  /*Bordure*/
+  padding: 23px 50px 20px 40px;
+}
+
+header .onglets .hebergements:hover {
+  border-top: 4px solid #0065fc;
+  color: #0065fc;
+}
+
+header .onglets .activites:hover {
+  /*Effet survole bodure*/
+  border-top: 4px solid #0065fc;
+  color: #0065fc;
+}
+/******************************************Titre principal**************************************/
+main .titreh1 {
+  /*Marge enntre le sous-titre et la barre de recherche*/
+  margin-bottom: 20px;
+}
+
+main .titreh1 h1 {
+  /*Poilce du titre*/
+  font-size: 25px;
+  font-weight: 800;
+}
+
+main .titreh1 p {
+  /*Police du sous-titre*/
+  font-size: 15px;
+  font-weight: 600;
+}
+/****************************************Barre de recherche************************************/
+main .search {
+  display: flex;
+}
+
+.iconsearch {
+  /*Icon cachée pour le média queries*/
+  display: none;
+}
+
+main .icon-map {
+  /*Arrière plan de l'icon*/
+  background-color: #f2f2f2;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px 0 0 10px;
+}
+
+main .search input {
+  /*Visuel de la zone de recherche*/
+  padding: 0 0 0 20px;
+  border: none;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  font-weight: 800;
+}
+
+main .search input,
+button {
+  /*Taille de la zone de recherche et du boutton*/
+  height: 45px;
+}
+
+button {
+  /*Transformation du boutton*/
+  padding: 0 10px 0 10px;
+  background-color: #0065fc;
+  color: white;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
+}
+/***********************************************Filtres***************************************/
+main .filtres {
+  display: flex;
+  font-size: 15px;
+  margin: 20px 0 10px 0;
+}
+
+main .filtres h2 {
+  /*Marge du titre Filtres*/
+  margin-right: 20px;
+}
+
+main .filtres .flexcentre a {
+  /*Transformation des liens*/
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  margin: 0 10px 0 20px;
+  padding-right: 20px;
+  border-top: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+  border-right: 2px solid #f2f2f2;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+main .filtres .flexcentre .fa-solid {
+  /*Couleur des icons*/
+  background-color: #deebff;
+  color: #0065fc;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.fa-child-reaching {
+  /*Taille de l'icon Child*/
+  width: 15px;
+  height: 15px;
+}
+
+main .filtres .flexcentre a:hover {
+  /*Effet survole des 4 filtres*/
+  background-color: #deebff;
+  transform: scale(1.1);
+}
+/****************************************Info bulle*******************************************/
+main .info {
+  display: flex;
+  align-items: center;
+}
+
+main .info p {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+main .info .flexcentre {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  color: #0065fc;
+}
+/*******************************Corps de la page avec les 3 sections***************************/
+
+main .corps {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+/********************************Section 1 Hébergement à Marseille*****************************/
+main .section1 {
+  /*Arrière plan*/
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  width: 60%;
+  height: 550px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+main .section1 .titreh3 {
+  /*Titre de la section1*/
+  font-size: 20px;
+  font-weight: 800;
+  margin: 40px 20px 0px 20px;
+}
+
+main .section1 .imgcolonne1,
+.imgcolonne2 {
+  /*Arrière plan des images + police*/
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0px 0px 20px rgb(185, 183, 183);
+  margin: 20px;
+  padding: 4px 4px 10px 4px;
+  border-radius: 15px;
+  width: 30%;
+  transition: 0.5s;
+}
+
+main .section1 .imgcolonne1:hover {
+  /*Effet survole colonne 1*/
+  transform: scale(1.1);
+  box-shadow: 3px 3px 5px gray;
+}
+
+main .section1 .imgcolonne2:hover {
+  /*Effet survole colonne 2*/
+  transform: scale(1.1);
+  box-shadow: 3px 3px 5px gray;
+}
+
+figure {
+  margin: 0;
+}
+
+main .section1 .imgcolonne1 figcaption,
+.section1 .imgcolonne2 figcaption {
+  /*Police légende*/
+  font-size: 12px;
+  font-weight: 800;
+  margin: 5px 0 5px 0;
+}
+
+main .section1 .imgcolonne1 p,
+.imgcolonne2 p {
+  /*Poice description*/
+  font-size: 11px;
+  font-weight: 600;
+  margin: 5px 0 5px 0;
+}
+
+main .section1 .imgcolonne1 .img1 {
+  background-image: url("../images/hébergement-marseille/auberge-la-cannebiere.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section1 .imgcolonne1 .img2 {
+  background-image: url("../images/hébergement-marseille/hotel-du-port.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section1 .imgcolonne1 .img3 {
+  background-image: url("../images/hébergement-marseille/hotel-les-mouettes.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section1 .imgcolonne2 .img4 {
+  background-image: url("../images/hébergement-marseille/hotel-de-la-mer.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section1 .imgcolonne2 .img5 {
+  background-image: url("../images/hébergement-marseille/auberge-le-panier.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section1 .imgcolonne2 .img6 {
+  background-image: url("../images/hébergement-marseille/hotel-chez-amina.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section1 .star-active {
+  /*Couleur étoile active*/
+  color: #0065fc;
+}
+
+main .section1 .star-inactive {
+  /*Couleur étoile inactive*/
+  color: rgb(216, 207, 207);
+}
+
+main .section1 .afficherplus a {
+  margin: 10px 0 20px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+/*******************************Section 2 Les plus populaires**********************************/
+
+main .section2 {
+  /*Arrière plan*/
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  width: 36%;
+  height: 550px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+main .section2 .titreh3 {
+  /*Titre de la section 2*/
+  font-size: 20px;
+  font-weight: 800;
+  margin: 40px 20px 0px 20px;
+}
+
+main .section2 .imgasection {
+  /*Arrière plan des image + police*/
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0px 0px 20px rgb(185, 183, 183);
+  margin: 20px;
+  padding: 4px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+main .section2 .imgasection:hover {
+  /*Effet survole*/
+  transform: scale(1.1);
+  box-shadow: 3px 3px 5px gray;
+}
+
+main .section2 .imgasection .img7 {
+  background-image: url("../images/populaires/hotel-le-solei-du-matin.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 110px;
+  border-radius: 15px 0 0 15px;
+}
+
+main .section2 .imgasection .img8 {
+  background-image: url("../images/populaires/Au-coeur-de-l-eau-chambres-d-hotes.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 110px;
+  border-radius: 15px 0 0 15px;
+}
+
+main .section2 .imgasection .img9 {
+  background-image: url("../images/populaires/hotel-tout-bleu-et-blanc.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 110px;
+  border-radius: 15px 0 0 15px;
+}
+
+main .section2 .populaires {
+  display: flex;
+  flex-direction: column;
+}
+
+main .section2 .populaires .imgasection {
+  display: flex;
+}
+
+main .section2 .populaires .boximg7,
+.boximg8,
+.boximg9 {
+  margin: 0px 20px 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .section2 .imgasection h4,
+p {
+  /*Marge légende et descriptif*/
+  margin: 5px 10px 0 0px;
+  font-weight: 600;
+}
+
+main .section2 .imgasection h4 {
+  /*Police de la légende*/
+  font-weight: 800;
+}
+
+main .section2 .fa-chart-line {
+  /*Marge des étoiles*/
+  margin: 40px 20px 0 20px;
+}
+
+main .section2 .star-active {
+  /*Couleur étoile active*/
+  color: #0065fc;
+}
+
+main .section2 .star-inactive {
+  /*Couleur étoile inactive*/
+  color: rgb(216, 207, 207);
+}
+
+/********************************Section 3 Activités à Marseille*******************************/
+
+main .section3 .activitesmarseille {
+  /*Titre de la section 3*/
+  font-size: 20px;
+  font-weight: 800;
+  margin: 50px 0 25px 0px;
+  width: 200px;
+}
+
+main .section3 {
+  /*Largeur de la section 3*/
+  width: 100%;
+}
+
+main .section3 .colonne4,
+.colonne6 {
+  /*Arrière plan + plolice*/
+  background-color: white;
+  padding: 0px;
+  border-radius: 15px;
+  width: 21%;
+  height: 360px;
+  box-shadow: 0px 0px 20px rgb(185, 183, 183);
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+main .section3 .colonne5double1 .fort,
+.iles,
+.colonne7double2 .ndg,
+.longchamp {
+  /*Arrière plan */
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgb(185, 183, 183);
+  padding: 0px;
+}
+
+main .section3 .colonne5double1,
+.colonne7double2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  border-radius: 15px;
+  width: 23%;
+  height: 360px;
+}
+
+main .section3 .textnone:hover,
+.colonne4:hover,
+.colonne6:hover {
+  /*Effet survole des images*/
+  transform: scale(1.1);
+  box-shadow: 3px 3px 5px gray;
+  border-radius: 15px;
+}
+
+main .section3 .textnone {
+  /*Suppression effet de texte*/
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+main .section3 h4 {
+  /*Police*/
+  font-size: 15px;
+  font-weight: 800;
+  margin: 10px 0 0 20px;
+  padding-bottom: 10px;
+}
+
+main .section3 .img10 {
+  background-image: url("../images/activité-marseille/vieux-port.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section3 .img11 {
+  background-image: url("../images/activité-marseille/fort-de-pomeges.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 130px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section3 .img12 {
+  background-image: url("../images/activité-marseille/iles-du-frioul.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section3 .img13 {
+  background-image: url("../images/activité-marseille/parc-national-des-calanques.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section3 .img14 {
+  background-image: url("../images/activité-marseille/notre-dame-de-la-garde.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 110px;
+  border-radius: 15px 15px 0 0;
+}
+
+main .section3 .img15 {
+  background-image: url("../images/activité-marseille/parc-longchamp.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 110px;
+  border-radius: 15px 15px 0 0;
+}
+
+/*************************************Footer***********************************************/
+
+footer {
+  /*Arrière plan*/
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+footer .apropos,
+.noshebergements,
+.assistance {
+  margin: 0 200px 0 50px;
+}
+
+footer .apropos a,
+.noshebergements a,
+.assistance a {
+  /*Police des liens*/
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: black;
+}
